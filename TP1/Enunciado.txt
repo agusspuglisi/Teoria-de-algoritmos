@@ -1,0 +1,17 @@
+Sean A y B dos sets de “n” puntos en el plano p=(x,y). Un punto ai=(xi,yi) de A domina a un punto bj=(xj,yj) de B si y sólo si xi≥xj y yi ≥ yj. Un emparejamiento (match) entre un punto ai de A y uno bj B es posible si ai domina a bj. Llamamos matching M a un conjunto de emparejamientos(a1 , b1 ), (a2 , b2), . . . , (ak , bk )} y su tamaño corresponde a k. Un matching es máximo si no existe otro posible mátiching con mayor cantidad de puntos.
+
+Se pide para los set A y B obtener el matching máximo.
+
+Resuelva:
+
+Proponga una estrategia greedy óptima para resolver el problema con la menor complejidad espacial y temporal posible. Justifique su optimalidad. Justifique que sea greedy.
+
+Explique cómo implementar algorítmicamente esa estrategia. Brinde pseudocódigo y estructuras de datos a utilizar.
+
+Analice complejidad temporal y espacial de su propuesta
+
+Programe su algoritmo y entregue dos ejemplos para su prueba.
+
+¿Su programa mantiene la complejidad espacial y temporal de su algoritmo? Justifique referenciando a la documentación del lenguaje si es necesario.
+
+Analice la solución obtenida por su algoritmo. Es única? ¿Qué podría decir sobre ella? ¿Prevalece cierto emparejamiento frente a otro posible?
