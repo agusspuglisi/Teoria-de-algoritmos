@@ -1,1 +1,44 @@
+Parte 1: La preselección de inversiones
+Un comité de una empresa debe realizar una preselección de un subconjunto de proyectos. Cada uno de los “n” proyectos cuentan con dos índices de valoración: ganancias y prestigio. Luego de varias reuniones han decidido como criterio que, aquellos proyectos que cuenten con al menos otro que lo supere en ambos índices será rechazado. Como la cantidad de proyectos es grande y su tiempo limitado, nos solicitan que construyamos una solución algorítmica que pueden utilizar para resolver el problema.
 
+Se pide:
+
+Proponga una estrategia por fuerza bruta para resolver el problema. ¿Cuál es su complejidad?
+
+Proponga una solución superadora utilizando división y conquista. Brinde pseudocódigo y estructuras de datos a utilizar. Intente que la complejidad sea la menor posible
+
+Presente relación de recurrencia de su solución. Realizar el análisis de complejidad temporal. Utilice tanto el teorema maestro cómo desenrollar la recurrencia.
+
+Brinde dos ejemplos completos del funcionamiento de su solución
+
+
+
+Parte 2: La triangulación de polinomios
+Dentro de la industria de los videojuegos se crean y utilizan motores gráficos para la animación de escenas. Un apartado importante de los mismos es la manera de dibujar los modelos en 3D para componer escenas. Generalmente a los diferentes objetos se los transforma en triángulos para facilitar las diferentes operaciones sobre ellos (manipulación, texturado, iluminación, etc). Realizaremos una función específica y sencilla que nos solicitan: triangular un polígono convexo conformado por n puntos.
+
+Podemos representar al polígono convexo como una secuencia de n vértices en el plano en sentido contrarreloj. Se conoce como cuerda (chord) de un polígono a una línea recta que conecta dos vértices no adyacentes de un polígono. La triangulación buscada debe ser realizada mediante cuerdas que no se intersectan entre sí.
+
+Se debe tener en cuenta que existen una gran cantidad posible de triangulaciones. Pero queremos encontrar aquella que minimice el número resultante de sumar la longitud de los lados de cada uno de los triángulos construidos.
+
+Se pide:
+
+Determinar y explicar cómo se resolvería este problema por fuerza bruta. De un ejemplo paso a paso. ¿Qué complejidad temporal y espacial tiene la solución?
+
+Proponer una solución al problema que utiliza programación dinámica. Incluya relación de recurrencia, pseudocódigo, estructuras de datos utilizadas, explicación en prosa y un breve ejemplo de aplicación
+
+Analice la complejidad temporal y espacial de su propuesta.
+
+Programe la solución
+
+Determine si su programa tiene la misma complejidad que su propuesta teórica.
+
+
+
+Parte 3: Un poco de teoría
+Hasta el momento hemos visto 3 formas distintas de resolver problemas. Greedy, división y conquista y programación dinámica.
+
+Describa brevemente en qué consiste cada una de ellas
+
+¿Qué propiedades requiere el problema para poder ser resueltos por ellos?
+
+Considere el algoritmo Gale-Shapley. ¿Pertenece a alguna de estas metodologías? analice y responda justificando por sí o por no para cada una de ellas.
